@@ -1,2 +1,5 @@
-print("Hello, World!")
-# This is new change to differ this comment from the one in git file
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Reza")
+# This is our new feature
